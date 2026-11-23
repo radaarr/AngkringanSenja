@@ -1,0 +1,39 @@
+# Laravel backend
+backend/.env
+backend/vendor/
+backend/node_modules/
+backend/public/storage
+backend/public/build
+backend/public/hot
+backend/public/fonts-manifest.dev.json
+backend/storage/*.key
+backend/storage/pail
+backend/.phpunit.result.cache
+backend/.phpunit.cache
+backend/_ide_helper.php
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/.vscode/*
+!frontend/.vscode/extensions.json
+frontend/.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+backend-dev.err.log
+backend-dev.out.log
+frontend-dev.err.log
+frontend-dev.out.log
